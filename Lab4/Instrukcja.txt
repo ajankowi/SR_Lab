@@ -3,6 +3,7 @@
 - ADC1, IN15 ustaw Single-ended
 - Dodaj przerwania interrupts
 - Rozszerz Rank i zmień cycles 2.5 na 92.5
+- Podlacz przewod do PC13
 - Skopiuj main.c 
 
 2.DAC
@@ -17,12 +18,13 @@
 
 - Konfiguracja DAC_1 Trigger 
 	+ Timer 6 Trigger Out event
-	+ DMA Settings - add
+	+ DMA Settings - add 
 	+ DMA Request wybierz DAC_CH1
 	+ mode - Circular
-	+ inkrementacja dla PAMIECI
-	+ dla peryferium i pamięciu ustaw rozmiar jako bajt
+	+ inkrementacja adresu dla PAMIECI
+	+ dla peryferium i pamięciu ustaw rozmiar jako bajt (Byte)
 - skopiuj main.c
 	
 
 
+  HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_1, (uint32_t*) &dac[0], 16, DAC_ALIGN_8B_R);
