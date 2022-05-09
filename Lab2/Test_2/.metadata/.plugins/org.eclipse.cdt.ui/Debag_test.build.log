@@ -1,0 +1,35 @@
+14:56:19 **** Incremental Build of configuration Debug for project Debag_test ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../USB_HOST/App -I../USB_HOST/Target -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Middlewares/ST/STM32_USB_Host_Library/Core/Inc -I../Middlewares/ST/STM32_USB_Host_Library/Class/CDC/Inc -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'foo':
+../Core/Src/main.c:130:8: warning: unused variable 'local_variable' [-Wunused-variable]
+    int local_variable;
+        ^~~~~~~~~~~~~~
+../Core/Src/main.c: In function '_write':
+../Core/Src/main.c:698:29: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+  HAL_UART_Transmit(&huart2, ptr,len, 50);
+                             ^~~
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:449:0,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1616:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Debag_test.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab2\Test_2\Debag_test\STM32L476VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Debag_test.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Debag_test.elf
+ 
+arm-none-eabi-objdump -h -S  Debag_test.elf  > "Debag_test.list"
+arm-none-eabi-objcopy  -O binary  Debag_test.elf  "Debag_test.bin"
+arm-none-eabi-size   Debag_test.elf 
+   text	   data	    bss	    dec	    hex	filename
+  41788	    152	   4208	  46148	   b444	Debag_test.elf
+Finished building: default.size.stdout
+ 
+Finished building: Debag_test.bin
+ 
+Finished building: Debag_test.list
+ 
+
+14:56:20 Build Finished. 0 errors, 2 warnings. (took 1s.617ms)
+

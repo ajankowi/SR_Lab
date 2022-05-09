@@ -1,0 +1,73 @@
+!SESSION 2022-03-14 14:46:03.587 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_181
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-03-14 14:48:04.153
+!MESSAGE Loading product manager
+
+!ENTRY com.atollic.truestudio.productmanager 1 0 2022-03-14 14:48:04.161
+!MESSAGE OS info: Windows 10, 10.0, x86
+
+!ENTRY TrueSTUDIO 1 0 2022-03-14 14:48:04.833
+!MESSAGE Target: STM32, Version: 9.3.0, Build date: 20190212-0734, Installation dir: /C:/Program Files (x86)/Atollic/TrueSTUDIO for STM32 9.3.0/ide/
+
+!ENTRY TrueSTUDIO 1 0 2022-03-14 14:48:04.833
+!MESSAGE Workspace: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab1\Atollic
+
+!ENTRY org.eclipse.jface 2 0 2022-03-14 14:48:05.917
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2022-03-14 14:48:05.917
+!MESSAGE A conflict occurred for ALT+CTRL+T:
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.team.svn.ui.command.EditPropertiesCommand,Show Properties,
+		,
+		Category(org.eclipse.team.svn.ui.command.category,SVN,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@d44a2a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+CTRL+T,
+	ParameterizedCommand(Command(org.eclipse.tm.terminal.connector.local.command.launch,Open Local Terminal on Selection,
+		,
+		Category(org.eclipse.tm.terminal.view.ui.commands.category,Terminal Commands,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@66be41,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.atollic.truestudio.integration.processorexpert 0 0 2022-03-14 14:48:09.613
+!MESSAGE Atollic TrueSTUDIO Processor Expert integration is up.
+
+!ENTRY edu.hawaii.ics.csdl.jupiter 1 0 2022-03-14 14:48:09.625
+!MESSAGE Code Review is up.
+
+!ENTRY org.eclipse.egit.ui 2 0 2022-03-14 14:48:10.106
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\adamj'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2022-03-14 14:49:08.271
+!MESSAGE lab01 needs property 'com.atollic.truestudio.general.runtimelib.1329292879' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2022-03-14 14:49:08.274
+!MESSAGE lab01 needs property 'com.atollic.truestudio.toolchain_options.mcu.323891312' fixed. Fixing to 'STM32L476RG'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2022-03-14 14:49:08.275
+!MESSAGE lab01 needs property 'com.atollic.truestudio.toolchain_options.vendor.1767262546' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2022-03-14 14:49:08.742
+!MESSAGE lab01 needs property 'com.atollic.truestudio.general.runtimelib.792353593' fixed. Fixing to 'com.atollic.truestudio.ld.general.clib.small'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2022-03-14 14:49:08.743
+!MESSAGE lab01 needs property 'com.atollic.truestudio.toolchain_options.mcu.1371962033' fixed. Fixing to 'STM32L476RG'.
+
+!ENTRY com.atollic.truestudio.mbs 2 0 2022-03-14 14:49:08.743
+!MESSAGE lab01 needs property 'com.atollic.truestudio.toolchain_options.vendor.1861942301' fixed. Fixing to 'STMicroelectronics'.
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-03-14 14:49:13.895
+!MESSAGE Indexed 'lab01' (22 sources, 102 headers) in 2,98 sec: 9 575 declarations; 41 470 references; 3 unresolved inclusions; 46 syntax errors; 169 unresolved names (0,33%)

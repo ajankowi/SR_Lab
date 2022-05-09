@@ -1,0 +1,28 @@
+1.ADC
+- Ustaw ADC_IN15 na PB0
+- ADC1, IN15 ustaw Single-ended
+- Dodaj przerwania interrupts
+- Rozszerz Rank i zmień cycles 2.5 na 92.5
+- Skopiuj main.c 
+
+2.DAC
+- Ustaw DAC1_OUT1 na PA4
+- Ustaw DAC1_OUT1 mode na Connected to external pin only.
+- skopiuj main.c
+
+3.
+- Dodaj tabele z wartosciami
+- Aktywuj TIM6, Prescaler 15999, Period 4999 T=1s
+	Trigger Event Selection - Update Event
+
+- Konfiguracja DAC_1 Trigger 
+	+ Timer 6 Trigger Out event
+	+ DMA Settings - add
+	+ DMA Request wybierz DAC_CH1
+	+ mode - Circular
+	+ inkrementacja dla PAMIECI
+	+ dla peryferium i pamięciu ustaw rozmiar jako bajt
+- skopiuj main.c
+	
+
+

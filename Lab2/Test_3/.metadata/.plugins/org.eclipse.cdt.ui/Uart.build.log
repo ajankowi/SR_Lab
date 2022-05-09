@@ -1,0 +1,31 @@
+16:08:31 **** Incremental Build of configuration Debug for project Uart ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '_write':
+../Core/Src/main.c:438:34: warning: pointer targets in passing argument 2 of 'HAL_UART_Transmit' differ in signedness [-Wpointer-sign]
+    if(HAL_UART_Transmit(&huart2, ptr, len, 100) != HAL_OK){
+                                  ^~~
+In file included from ../Core/Inc/stm32l4xx_hal_conf.h:449:0,
+                 from ../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal.h:30,
+                 from ../Core/Inc/main.h:31,
+                 from ../Core/Src/main.c:21:
+../Drivers/STM32L4xx_HAL_Driver/Inc/stm32l4xx_hal_uart.h:1616:19: note: expected 'uint8_t * {aka unsigned char *}' but argument is of type 'char *'
+ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size, uint32_t Timeout);
+                   ^~~~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "Uart.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab2\Test_3\Uart\STM32L476VGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Uart.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Uart.elf
+ 
+arm-none-eabi-objdump -h -S  Uart.elf  > "Uart.list"
+arm-none-eabi-objcopy  -O binary  Uart.elf  "Uart.bin"
+arm-none-eabi-size   Uart.elf 
+   text	   data	    bss	    dec	    hex	filename
+  18416	    120	   1720	  20256	   4f20	Uart.elf
+Finished building: default.size.stdout
+ 
+Finished building: Uart.bin
+ 
+Finished building: Uart.list
+ 
+
+16:08:33 Build Finished. 0 errors, 1 warnings. (took 1s.441ms)
+

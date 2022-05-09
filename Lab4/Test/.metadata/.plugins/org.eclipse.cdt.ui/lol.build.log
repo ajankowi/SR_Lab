@@ -1,0 +1,10 @@
+21:48:39 **** Incremental Build of configuration Debug for project lol ****
+make -j12 all 
+arm-none-eabi-size   lol.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23248	    120	   1816	  25184	   6260	lol.elf
+Finished building: default.size.stdout
+ 
+
+21:48:39 Build Finished. 0 errors, 0 warnings. (took 287ms)
+
