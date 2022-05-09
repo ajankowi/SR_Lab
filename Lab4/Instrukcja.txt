@@ -1,4 +1,4 @@
-1.ADC
+1. ADC - test
 - Ustaw ADC_IN15 na PB0
 - ADC1, IN15 ustaw Single-ended
 - Dodaj przerwania interrupts
@@ -6,12 +6,12 @@
 - Podlacz przewod do PC13
 - Skopiuj main.c 
 
-2.DAC
+2. DAC
 - Ustaw DAC1_OUT1 na PA4
 - Ustaw DAC1_OUT1 mode na Connected to external pin only.
 - skopiuj main.c
 
-3.
+3. DMA
 - Dodaj tabele z wartosciami
 - Aktywuj TIM6, Prescaler 15999, Period 4999 T=1s
 	Trigger Event Selection - Update Event
@@ -28,3 +28,34 @@
 
 
   HAL_DAC_Start_DMA(&hdac1, DAC_CHANNEL_1, (uint32_t*) &dac[0], 16, DAC_ALIGN_8B_R);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://github.com/mbober1/SteRoL/tree/main/exercises
+
+https://github.com/wdomski/SteRoL/tree/develop/exercises/ex3

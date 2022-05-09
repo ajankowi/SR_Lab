@@ -1,0 +1,1484 @@
+2022-05-09 12:34:51,164 [INFO] Activator:178 - 
+
+
+2022-05-09 12:34:51,167 [INFO] Activator:179 - !SESSION log4j initialized
+2022-05-09 12:35:55,013 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2022-05-09 12:35:55,022 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2022-05-09 12:35:55,025 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2022-05-09 12:35:55,035 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,035 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,038 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,045 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,046 [INFO] DbMcusJson:63 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,047 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,048 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,055 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-05-09 12:35:55,058 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,135 [INFO] RulesReader:52 - Compatibility file has been processed (209 Rules)
+2022-05-09 12:35:55,192 [INFO] MicroXplorer:564 - Detected Java Version = 1.8.0_252
+2022-05-09 12:35:55,193 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2022-05-09 12:35:55,193 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2022-05-09 12:35:55,194 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,194 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,194 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,194 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,194 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,194 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,194 [INFO] DbMcusJson:63 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,195 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,195 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,195 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,195 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,195 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,195 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,195 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-05-09 12:35:55,195 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,196 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,244 [INFO] MainPanel:189 - HeapMemory: 442499072
+2022-05-09 12:35:55,289 [INFO] DbMcusXml:70 - Set database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/
+2022-05-09 12:35:55,289 [INFO] DbBoardsPdsc:56 - Set plugin database path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/boardmanager/
+2022-05-09 12:35:55,290 [INFO] DbMcus:258 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,290 [INFO] DbBoards:264 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,290 [INFO] DbExamples:326 - Set plugin images path to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/
+2022-05-09 12:35:55,290 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,290 [INFO] DbMcusDocs:112 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,290 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,291 [INFO] DbMcusJson:63 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,291 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,291 [INFO] DbBoardsDocs:112 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,291 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,291 [INFO] DbBoardsJson:56 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,291 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,291 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,291 [INFO] CrossReferenceDbSqlite:196 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/cs/
+2022-05-09 12:35:55,291 [WARN] DbFile:36 - Overriding database path with different value: C:\Users\adamj\.stmcufinder\plugins\mcufinder/ => C:\Users\adamj\.stmcufinder\plugins\mcufinder
+2022-05-09 12:35:55,292 [INFO] DbExamplesSqlite:800 - Set database path to: C:\Users\adamj\.stmcufinder\plugins\mcufinder//mcu/
+2022-05-09 12:35:55,305 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2022-05-09 12:35:55,306 [INFO] PluginManage:178 - Search for loadable plugins [exclusion list=, ]
+2022-05-09 12:35:55,307 [INFO] PluginManage:292 - Check plugin analytics
+2022-05-09 12:35:59,971 [INFO] AnalyticsPlugin:203 - Accepted Software Licenses: 
+2022-05-09 12:35:59,972 [INFO] AnalyticsPlugin:205 - Accepted CMSIS Pack Licenses: 
+2022-05-09 12:35:59,972 [INFO] AnalyticsPlugin:207 - Accepted Firmware Licenses: 
+2022-05-09 12:35:59,973 [INFO] PluginManage:342 - Loaded plugin analytics (category:tool,tabindex:-1)
+2022-05-09 12:35:59,973 [INFO] PluginManage:292 - Check plugin clock
+2022-05-09 12:35:59,984 [INFO] PluginManage:342 - Loaded plugin clock (category:base,tabindex:2)
+2022-05-09 12:35:59,984 [INFO] PluginManage:292 - Check plugin ddr
+2022-05-09 12:35:59,986 [INFO] PluginManage:342 - Loaded plugin ddr (category:tool,tabindex:6)
+2022-05-09 12:35:59,987 [INFO] PluginManage:292 - Check plugin filemanager
+2022-05-09 12:36:00,085 [INFO] PluginManage:342 - Loaded plugin filemanager (category:base,tabindex:10)
+2022-05-09 12:36:00,085 [INFO] PluginManage:292 - Check plugin ipmanager
+2022-05-09 12:36:00,091 [INFO] PluginManage:342 - Loaded plugin ipmanager (category:base,tabindex:5)
+2022-05-09 12:36:00,091 [INFO] PluginManage:292 - Check plugin pinoutandconfiguration
+2022-05-09 12:36:00,101 [INFO] PluginManage:342 - Loaded plugin pinoutandconfiguration (category:base,tabindex:1)
+2022-05-09 12:36:00,101 [INFO] PluginManage:292 - Check plugin pinoutconfig
+2022-05-09 12:36:00,124 [INFO] PluginManage:342 - Loaded plugin pinoutconfig (category:base,tabindex:0)
+2022-05-09 12:36:00,124 [INFO] PluginManage:292 - Check plugin power
+2022-05-09 12:36:00,131 [INFO] PluginManage:342 - Loaded plugin power (category:power,tabindex:4)
+2022-05-09 12:36:00,131 [INFO] PluginManage:292 - Check plugin projectmanager
+2022-05-09 12:36:00,147 [INFO] PluginManage:342 - Loaded plugin projectmanager (category:projectmanager,tabindex:3)
+2022-05-09 12:36:00,147 [INFO] PluginManage:292 - Check plugin thirdparty
+2022-05-09 12:36:00,242 [INFO] ThirdPartyDb:333 - Open Third Party DataBase File (C:/Users/adamj/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) : 45 ms. number of Sw pack : 47
+2022-05-09 12:36:00,246 [INFO] PluginManage:342 - Loaded plugin thirdparty (category:base,tabindex:-1)
+2022-05-09 12:36:00,246 [INFO] PluginManage:292 - Check plugin tools
+2022-05-09 12:36:00,248 [INFO] PluginManage:342 - Loaded plugin tools (category:base,tabindex:7)
+2022-05-09 12:36:00,249 [INFO] PluginManage:292 - Check plugin tutovideos
+2022-05-09 12:36:00,440 [INFO] PluginManage:342 - Loaded plugin tutovideos (category:base,tabindex:-1)
+2022-05-09 12:36:00,440 [INFO] PluginManage:292 - Check plugin updater
+2022-05-09 12:36:00,450 [INFO] PluginManage:342 - Loaded plugin updater (category:base,tabindex:12)
+2022-05-09 12:36:00,451 [INFO] PluginManage:265 - PluginManage : Loaded plugins [13]
+2022-05-09 12:36:00,589 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2022-05-09 12:36:00,657 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,657 [INFO] PluginManager:200 - loadIPPluginJar : add adc
+2022-05-09 12:36:00,659 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,659 [INFO] PluginManager:200 - loadIPPluginJar : add aes
+2022-05-09 12:36:00,662 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,662 [INFO] PluginManager:200 - loadIPPluginJar : add can
+2022-05-09 12:36:00,663 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,664 [INFO] PluginManager:200 - loadIPPluginJar : add comp
+2022-05-09 12:36:00,665 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,666 [INFO] PluginManager:200 - loadIPPluginJar : add cryp
+2022-05-09 12:36:00,668 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,668 [INFO] PluginManager:200 - loadIPPluginJar : add dfsdm
+2022-05-09 12:36:00,680 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,681 [INFO] PluginManager:200 - loadIPPluginJar : add dma
+2022-05-09 12:36:00,682 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,682 [INFO] PluginManager:200 - loadIPPluginJar : add fatfs
+2022-05-09 12:36:00,686 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,686 [INFO] PluginManager:200 - loadIPPluginJar : add fmc
+2022-05-09 12:36:00,691 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,691 [INFO] PluginManager:200 - loadIPPluginJar : add freertos
+2022-05-09 12:36:00,692 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,692 [INFO] PluginManager:200 - loadIPPluginJar : add genericplugin
+2022-05-09 12:36:00,694 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,694 [INFO] PluginManager:200 - loadIPPluginJar : add gfxmmu
+2022-05-09 12:36:00,698 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,698 [INFO] PluginManager:200 - loadIPPluginJar : add gic
+2022-05-09 12:36:00,702 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,702 [INFO] PluginManager:200 - loadIPPluginJar : add gpio
+2022-05-09 12:36:00,703 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,704 [INFO] PluginManager:200 - loadIPPluginJar : add gtzc
+2022-05-09 12:36:00,705 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,705 [INFO] PluginManager:200 - loadIPPluginJar : add hash
+2022-05-09 12:36:00,708 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,708 [INFO] PluginManager:200 - loadIPPluginJar : add i2c
+2022-05-09 12:36:00,710 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,710 [INFO] PluginManager:200 - loadIPPluginJar : add i2s
+2022-05-09 12:36:00,712 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,713 [INFO] PluginManager:200 - loadIPPluginJar : add ipddr
+2022-05-09 12:36:00,714 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,714 [INFO] PluginManager:200 - loadIPPluginJar : add ltdc
+2022-05-09 12:36:00,717 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,717 [INFO] PluginManager:200 - loadIPPluginJar : add mdma
+2022-05-09 12:36:00,720 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,720 [INFO] PluginManager:200 - loadIPPluginJar : add nvic
+2022-05-09 12:36:00,722 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,722 [INFO] PluginManager:200 - loadIPPluginJar : add opamp
+2022-05-09 12:36:00,725 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,725 [INFO] PluginManager:200 - loadIPPluginJar : add openamp
+2022-05-09 12:36:00,727 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,727 [INFO] PluginManager:200 - loadIPPluginJar : add pdm2pcm
+2022-05-09 12:36:00,732 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,752 [INFO] PluginManager:200 - loadIPPluginJar : add plateformsettings
+2022-05-09 12:36:00,758 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,758 [INFO] PluginManager:200 - loadIPPluginJar : add quadspi
+2022-05-09 12:36:00,762 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,763 [INFO] PluginManager:200 - loadIPPluginJar : add resmgrutility
+2022-05-09 12:36:00,766 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,766 [INFO] PluginManager:200 - loadIPPluginJar : add sai
+2022-05-09 12:36:00,768 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,768 [INFO] PluginManager:200 - loadIPPluginJar : add spi
+2022-05-09 12:36:00,772 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,772 [INFO] PluginManager:200 - loadIPPluginJar : add stm32_wpan
+2022-05-09 12:36:00,774 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,774 [INFO] PluginManager:200 - loadIPPluginJar : add tim
+2022-05-09 12:36:00,777 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,777 [INFO] PluginManager:200 - loadIPPluginJar : add touchsensing
+2022-05-09 12:36:00,779 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,779 [INFO] PluginManager:200 - loadIPPluginJar : add tracer_emb
+2022-05-09 12:36:00,781 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,781 [INFO] PluginManager:200 - loadIPPluginJar : add ts
+2022-05-09 12:36:00,782 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,782 [INFO] PluginManager:200 - loadIPPluginJar : add tsc
+2022-05-09 12:36:00,784 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,784 [INFO] PluginManager:200 - loadIPPluginJar : add ucpd
+2022-05-09 12:36:00,786 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:00,786 [INFO] PluginManager:200 - loadIPPluginJar : add usart
+2022-05-09 12:36:01,553 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: null
+2022-05-09 12:36:02,274 [FATAL] Updater:282 - Updater called before beeing initialized
+2022-05-09 12:36:02,396 [FATAL] Updater:282 - Updater called before beeing initialized
+2022-05-09 12:36:02,396 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2022-05-09 12:36:02,396 [INFO] ThirdParty:777 - entering critical section [close project]
+2022-05-09 12:36:02,397 [INFO] ThirdParty:790 - exiting critical section [close project]
+2022-05-09 12:36:02,399 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2022-05-09 12:36:02,400 [FATAL] Updater:282 - Updater called before beeing initialized
+2022-05-09 12:36:02,404 [ERROR] Updater:967 - MainUpdater not yet initialized. External WinMGr cannot be set.
+2022-05-09 12:36:02,405 [INFO] CubeProgrammer:457 - [DDR PANEL] - PathOfProgrammer: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2022-05-09 12:36:02,408 [INFO] ProgrammerExecThread:148 - [ProgrammerAPI] CubeProgrammer command construction: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin\STM32_Programmer_CLI.exe -l
+2022-05-09 12:36:02,617 [INFO] MainDdrPanel:49 - [DDR PANEL] SETTER - Set cubeProgrammerPath to: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.ide.mcu.externaltools.cubeprogrammer.win32_1.4.0.202007081208\tools\bin
+2022-05-09 12:36:02,630 [INFO] Updater:904 - Updater Version found : 6.0.0
+2022-05-09 12:36:02,645 [INFO] ApplicationProperties:181 - Using Application install path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824
+2022-05-09 12:36:02,871 [INFO] MainUpdater:2268 - connection check result : 10
+2022-05-09 12:36:02,872 [INFO] MainUpdater:239 - Updater Check For Update Now.
+2022-05-09 12:36:02,872 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2022-05-09 12:36:02,911 [INFO] CheckServerUpdateThread:102 - End of CheckServer Thread
+2022-05-09 12:36:02,981 [INFO] MainUpdater:2268 - connection check result : 10
+2022-05-09 12:36:03,159 [INFO] McuFinderGlobals:40 - Set McuFinder mode to 2 (CubeIDE integrated)
+2022-05-09 12:36:03,252 [WARN] IntegrityCheckThread:61 - waiting for thirdparty lock release [integrity check]
+2022-05-09 12:36:03,252 [INFO] IntegrityCheckThread:63 - entering critical section [integrity check]
+2022-05-09 12:36:03,430 [INFO] CrossSelectorPresenter:1330 - Cross Selector saved comparison directory: C:\Users\adamj\.stmcufinder\plugins\mcufinder\mcu\cs_comparisons_mx
+2022-05-09 12:36:03,434 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2022-05-09 12:36:03,436 [INFO] FinderPluginLoader:87 - Searching for filters in installed packs
+2022-05-09 12:36:03,438 [INFO] DbMcusXml:100 - Load MCU database from C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/mcu/families.xml
+2022-05-09 12:36:03,755 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/adamj/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2022-05-09 12:36:03,844 [INFO] ThirdPartyDb:299 - Save Third Party DataBase File (C:/Users/adamj/.stm32cubemx/plugins/thirdparty/db/thirdparties_db.xml) [forced]
+2022-05-09 12:36:03,945 [INFO] IntegrityCheckThread:76 - exiting critical section [integrity check]
+2022-05-09 12:36:03,945 [INFO] IntegrityCheckThread:79 - End integrity checks thread
+2022-05-09 12:36:04,271 [INFO] DbMcusJson:92 - JSON generation date=Tue Nov 16 17:17:54 CET 2021 (1637079474)
+2022-05-09 12:36:05,114 [INFO] DbMcus:175 - Found 1761 MCUs (1722 are supported by CubeMX, 1911 are visible in CubeMX)
+2022-05-09 12:36:05,115 [INFO] ApiDb:201 - Load user favorites file C:\Users\adamj/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-05-09 12:36:05,115 [INFO] ApiDb:205 - User favorites MCUs=[]
+2022-05-09 12:36:05,115 [INFO] DbMcus:187 - Set 0 / 0 favorites MCUs
+2022-05-09 12:36:05,446 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2022-05-09 12:36:05,466 [INFO] DetailPanel:331 - Set advertising image to C:/Users/adamj/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2022-05-09 12:36:05,798 [INFO] McuFilterPanel:245 - Update 0 favorites MCUs
+2022-05-09 12:36:05,859 [INFO] DbBoardsPdsc:94 - Found 23 items
+2022-05-09 12:36:05,861 [INFO] DbBoardsPdsc:94 - Found 9 items
+2022-05-09 12:36:05,863 [INFO] DbBoardsPdsc:94 - Found 29 items
+2022-05-09 12:36:05,864 [INFO] DbBoardsPdsc:94 - Found 1 items
+2022-05-09 12:36:05,868 [INFO] DbBoardsPdsc:94 - Found 44 items
+2022-05-09 12:36:05,871 [INFO] DbBoardsPdsc:94 - Found 40 items
+2022-05-09 12:36:05,873 [INFO] DbBoardsPdsc:94 - Found 2 items
+2022-05-09 12:36:05,874 [INFO] DbBoardsPdsc:94 - Found 4 items
+2022-05-09 12:36:05,880 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (CS42L51-CNZ), n=1
+2022-05-09 12:36:05,881 [WARN] DbBoardsPdsc:258 - Board STM32H735G-DK: unknown feature type=Audio, name=, username=Audio stereo codec with Headphone Amp (WM8994ECS/R), n=1
+2022-05-09 12:36:05,882 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Audio, name=, username=Multi-Channel Audio Codec (CS42L51-CNZ), n=1
+2022-05-09 12:36:05,882 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Meter, name=, username=Power-metering and Temperature-monitoring with sigma-delta modulators, n=1
+2022-05-09 12:36:05,883 [WARN] DbBoardsPdsc:258 - Board STM32H7B3I-EVAL: unknown feature type=Motor, name=, username=Motor Control, n=1
+2022-05-09 12:36:05,915 [INFO] DbBoardsJson:85 - JSON generation date=Tue Nov 16 17:17:54 CET 2021 (1637079474)
+2022-05-09 12:36:05,919 [INFO] DbBoards:117 - Found 166 boards (149 are supported by CubeMX)
+2022-05-09 12:36:05,920 [INFO] DbBoardsDocs:145 - JSON generation date=Tue Nov 16 17:17:54 CET 2021 (1637079474)
+2022-05-09 12:36:05,924 [INFO] DbBoardsDocs:81 - Found 209 boards documents
+2022-05-09 12:36:05,924 [WARN] DbBoards:127 - board B-L475E-IOT01A2 has no document id list !
+2022-05-09 12:36:05,925 [WARN] DbBoards:127 - board NUCLEO-H743ZI has no document id list !
+2022-05-09 12:36:05,925 [WARN] DbBoards:127 - board P-NUCLEO-WB55-Nucleo has no document id list !
+2022-05-09 12:36:05,925 [WARN] DbBoards:127 - board P-NUCLEO-WB55-USBDongle has no document id list !
+2022-05-09 12:36:05,925 [WARN] DbBoards:127 - board STEVAL-BFA001V1B has no document id list !
+2022-05-09 12:36:05,926 [WARN] DbBoards:127 - board STEVAL-BFA001V2B has no document id list !
+2022-05-09 12:36:05,926 [WARN] DbBoards:127 - board STEVAL-IDP005V1 has no document id list !
+2022-05-09 12:36:05,926 [WARN] DbBoards:127 - board STEVAL-IDP005V2 has no document id list !
+2022-05-09 12:36:05,926 [WARN] DbBoards:127 - board STEVAL-MKSBOX1V1 has no document id list !
+2022-05-09 12:36:05,926 [WARN] DbBoards:127 - board STEVAL-STWINKT1 has no document id list !
+2022-05-09 12:36:05,926 [WARN] DbBoards:127 - board STEVAL-STWINKT1B has no document id list !
+2022-05-09 12:36:05,926 [WARN] DbBoards:127 - board STM32439I-EVAL2 has no document id list !
+2022-05-09 12:36:05,926 [WARN] DbBoards:127 - board STM32F401C-DISCO has no document id list !
+2022-05-09 12:36:05,927 [WARN] DbBoards:127 - board STM32F769I-DISC1 has no document id list !
+2022-05-09 12:36:05,927 [WARN] DbBoards:127 - board STM32G474E-EVAL1 has no document id list !
+2022-05-09 12:36:05,927 [WARN] DbBoards:127 - board STM32H743I-EVAL2 has no document id list !
+2022-05-09 12:36:05,927 [WARN] DbBoards:127 - board STM32H747I-DISC1 has no document id list !
+2022-05-09 12:36:05,927 [WARN] DbBoards:127 - board STM32H753I-EVAL2 has no document id list !
+2022-05-09 12:36:05,927 [WARN] DbBoards:127 - board STM32L-DISCOVERY has no document id list !
+2022-05-09 12:36:05,996 [ERROR] DbBoards:189 - Image file not found for board B-L462E-CELL1: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/B-L462E-CELL1_small.jpg
+2022-05-09 12:36:06,037 [ERROR] DbBoards:189 - Image file not found for board B-U585I-IOT02A: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/B-U585I-IOT02A_small.jpg
+2022-05-09 12:36:06,101 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-F413ZH: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-f413zh_small.jpg
+2022-05-09 12:36:06,213 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-L552ZE-Q: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo_l552ze_q_small.jpg
+2022-05-09 12:36:06,213 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-U575ZI-Q: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-u575zi-q_small.jpg
+2022-05-09 12:36:06,213 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-WB15CC: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-wb15cc_small.jpg
+2022-05-09 12:36:06,214 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-WB55RG: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-wb55rg_small.jpg
+2022-05-09 12:36:06,214 [ERROR] DbBoards:189 - Image file not found for board NUCLEO-WL55JC: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/nucleo-wl55jc-small.jpg
+2022-05-09 12:36:06,368 [ERROR] DbBoards:189 - Image file not found for board STEVAL-STWINKT1B: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/steval-stwinkt1b_small.jpg
+2022-05-09 12:36:06,666 [ERROR] DbBoards:189 - Image file not found for board STM32G0C1E-EV: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/stm32g0c1e-eval_small.jpg
+2022-05-09 12:36:06,743 [ERROR] DbBoards:189 - Image file not found for board STM32H7B3I-EVAL: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/stm32h7b3ieval_small.jpg
+2022-05-09 12:36:06,929 [ERROR] DbBoards:189 - Image file not found for board STM32U575I-EV: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/stm32u575i-ev_small.jpg
+2022-05-09 12:36:06,958 [ERROR] DbBoards:189 - Image file not found for board STM32WB5MM-DK: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\/plugins/mcufinder/images/boards/STM32WB5MM-DK_small.jpg
+2022-05-09 12:36:06,959 [INFO] ApiDb:201 - Load user favorites file C:\Users\adamj/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-05-09 12:36:06,959 [INFO] ApiDb:205 - User favorites Boards=[]
+2022-05-09 12:36:06,959 [INFO] DbBoards:206 - Set 0 / 0 favorites Boards
+2022-05-09 12:36:13,628 [INFO] MultiScanPanel:193 - Auto-refresh data requested => check proxy status ongoing
+2022-05-09 12:36:13,671 [INFO] LoadUrlFilesThread:162 - End of LoadServerUrlFiles without Thread
+2022-05-09 12:36:13,671 [INFO] DetailPanel:331 - Set advertising image to C:/Users/adamj/STM32Cube/Repository/\stm32cubemx-promo_image.jpg
+2022-05-09 12:36:13,686 [INFO] BoardFilterPanel:214 - Update 0 favorites Boards
+2022-05-09 12:36:24,491 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] withoutVersionV1.16.0
+2022-05-09 12:36:26,615 [INFO] MainUpdater:2268 - connection check result : 10
+2022-05-09 12:36:26,616 [INFO] MainUpdater:2268 - connection check result : 10
+2022-05-09 12:36:26,653 [INFO] MicroXplorer:384 - Change Database Path : 
+2022-05-09 12:36:26,653 [INFO] MicroXplorer:414 - Change Database Version : DB.6.0.0
+2022-05-09 12:36:26,653 [WARN] ThirdParty:775 - waiting for thirdparty lock release [close project]
+2022-05-09 12:36:26,653 [INFO] ThirdParty:777 - entering critical section [close project]
+2022-05-09 12:36:26,653 [INFO] ThirdParty:790 - exiting critical section [close project]
+2022-05-09 12:36:26,656 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2022-05-09 12:36:26,656 [INFO] UtilMem:74 - Begin LoadConfig() Used Memory: 526123992 Bytes (787480576)
+2022-05-09 12:36:26,657 [INFO] OpenFileManager:274 - Change cursor
+2022-05-09 12:36:29,504 [INFO] Rule:211 - rule SPDIFRX instance for mcu is applicable
+2022-05-09 12:36:29,505 [INFO] Rule:211 - rule Rename Tracer Mode is applicable
+2022-05-09 12:36:29,505 [INFO] Rule:211 - rule SPDIFRX instance value for IP SPDIFRX is applicable
+2022-05-09 12:36:29,505 [INFO] Rule:211 - rule SPDIFRX instance for signal is applicable
+2022-05-09 12:36:29,505 [INFO] Rule:211 - rule SPDIFRX instance for project manager is applicable
+2022-05-09 12:36:29,505 [INFO] Rule:211 - rule SPDIFRX instance for project manager is applicable
+2022-05-09 12:36:29,505 [INFO] Rule:211 - rule ADC Scan  fix with FW F7 is applicable
+2022-05-09 12:36:29,505 [INFO] Rule:211 - rule ADC Scan  fix with FW F7 is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule Add RTC Activate Clock Source is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule Add RTC Activate Calendar 1 is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule Add RTC Activate Calendar 2 is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule Add RTC Activate Calendar 3 is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule UART/USART TX Mode is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule UART/USART RX Mode is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule UART/USART RX TX Mode is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule UART/USART PARITY NONE is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule UART/USART PARITY EVEN is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule UART/USART PARITY ODD is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule USART StopBits 1 is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule USART StopBits 2 is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule USART StopBits 1.5 is applicable
+2022-05-09 12:36:29,506 [INFO] Rule:211 - rule USART StopBits 0.5 is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule UART/USART WORD LENGTH 7 is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule UART/USART WORD LENGTH 8 is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule UART/USART WORD LENGTH 9 is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Rename FMC NAND NCE signal is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Rename FMC NAND INT signal is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConv L4 family is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigInjecConv L4 family is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConv F3 family is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigInjecConv F3 family is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConv Goldfish serie is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigInjecConv Goldfish serie is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConv L0 family is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConv F0 family is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConvn L1 family is applicable
+2022-05-09 12:36:29,507 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigInjecConv L1 family is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConv F1 family is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigInjecConv F1 family is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConv F7 family is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigInjecConv F7 family is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigConv F4 and F2 family is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule Change Default Value for ADC ExternalTrigInjecConv F4 and F2 family is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule ADC SamplingTime fix with FW L0  is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule ADC SamplingTime fix with FW L0 is applicable
+2022-05-09 12:36:29,508 [INFO] Rule:211 - rule Rename USB_OE Signal is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename Activate_OE Mode is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462/DIE415 pin PC14/OSC32_IN -> PC14-OSC32_IN (PC14) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462/DIE415 pin PC15/OSC32_OUT -> PC15-OSC32_OUT (PC15) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462/DIE415 pin PH0/OSC_IN -> PH0-OSC_IN (PH0) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462/DIE415 pin PH1/OSC_OUT -> PH1-OSC_OUT (PH1) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE415 pin PA13 -> PA13 (JTMS/SWDIO) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE415 pin PA14 -> PA14 (JTCK/SWCLK) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462/DIE415 pin PA15 -> PA15 (JTDI) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462 pin PB3 -> PB3 (JTD0/TRACESWO) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE415 pin PB3 -> PB3 (JTD0-TRACESWO) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462/DIE415 pin PB4 -> PB4 (NJTRST) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename DIE462 pin PH3/BOOT0 -> PH3-BOOT0 (BOOT0) is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename CRYP DataEncryptionTypesList to Algorithm is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename AES DataEncryptionTypesList to Algorithm is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename TDESECB to CRYP_TDES_ECB is applicable
+2022-05-09 12:36:29,509 [INFO] Rule:211 - rule Rename TDESCBC to CRYP_TDES_CBC is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename DESECB to CRYP_DES_ECB is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename DESCBC to CRYP_DES_CBC is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename AESECB to CRYP_AES_ECB is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename AESCBC to CRYP_AES_CBC is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename AESCTR to CRYP_AES_CTR is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename AESGCM to CRYP_AES_GCM is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename AESCCM to CRYP_AES_CCM is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename CAN TimeSeg1 to BS1 is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename CAN TimeSeg2 to BS2 is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename CAN SyncJumpWidth to SJW is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule TimeTriggeredMode to TTCM is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename CAN AutoBusOff to ABOM is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename CAN AutoWakeUp to AWUM is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename CAN AutoRetransmission to NART is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename CAN ReceiveFifoLocked to RFLM is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename CAN TransmitFifoPriority to TXFP is applicable
+2022-05-09 12:36:29,510 [INFO] Rule:211 - rule Rename HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGH in HRTIMER HRTIM_OUTPUTFAULTLEVEL_HIGHZ is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule Rename TIMER TIM_CLEARINPUTSOURCE_OCREFCLR in  TIMER TIM_CLEARINPUTSOURCE_NONE for F7 family is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN_R1 - Rename FDCAN mode Master into Classic is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN_R2 - Rename FDCAN mode Slave into Classic is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R3 - if PA10.Mode=FullDuplex, add Pin PA12 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R3 - if PA9.Mode=FullDuplex, add Pin PA11 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R3 - Alternatepin_1 - if PE1.Mode=FullDuplex, add Pin PB9 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R3 - Alternatepin_1 - if PE0.Mode=FullDuplex, add Pin PB8 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R3 - Alternatepin_2 - if PD5.Mode=FullDuplex, add Pin PD1 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R3 - Alternatepin_2 - if PD4.Mode=FullDuplex, add Pin PD0 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA10 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PA9 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE1 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PE0 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD5 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN1_R4 - Alternatepin_2 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD4 is applicable
+2022-05-09 12:36:29,511 [INFO] Rule:211 - rule FDCAN2_R3 - if PD10.Mode=FullDuplex, add Pin PB13 is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule FDCAN2_R3 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule FDCAN2_R3 - Alternatepin_1 - if PB7.Mode=FullDuplex, add Pin PB6 is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule FDCAN2_R3 - Alternatepin_1 - if PD9.Mode=FullDuplex, add Pin PB12 is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD10 is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule FDCAN2_R4 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD9 is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PB7 is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule FDCAN2_R4 - Alternatepin_1 - Rename Mode FullDuplex into Enable FDCAN_TXFD for pin PD6 is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule USART TxPinLevelInvertParam Mode is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule USART RxPinLevelInvertParam Mode is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule USART DataInvertParam Mode is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule USART SwapParam Mode is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule USART OverrunDisableParam Mode is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule USART DMADisableonRxErrorParam Mode is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule USART MSBFirstParam Mode is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule Update MwName for USB_DEVICE is applicable
+2022-05-09 12:36:29,512 [INFO] Rule:211 - rule Change PWR_Regulator_Voltage_Scale Default Value for RCC  H7 family is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule UART/USART IPParameter rename Prescaler parameter to ClockPrescaler is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule UART/USART Prescaler rename Prescaler parameter to ClockPrescaler is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule TIM1CLockSelection is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule TIM15CLockSelection is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule align RCC SDMMC3CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule align RCC SDMMC12CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule align RCC QSPICLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule align RCC SPI6CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule align RCC LPTIM23CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,513 [INFO] Rule:211 - rule align RCC LPTIM1CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC USART1CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC USART24CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC USART6CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC UART78CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC USART35CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC I2C46CLockSelection BCLK value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC SPI45CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC I2C12CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC I2C35CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule align RCC LPTIM45CLockSelection default value on MP1 is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule Rename DCMI PIXCK signal is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule Change Default Value for I2C46CLockSelection MP1 family is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule Change Default Value for UART for G4, G0 and WB families is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule Change Default Value for USART for G4, G0 and WB families is applicable
+2022-05-09 12:36:29,514 [INFO] Rule:211 - rule Change Default Value for USART for G4 family is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change USART1CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change USART2CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change USART3CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change UART4CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change UART5CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change LPUART1CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change LPTIM1CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change LPTIM2CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change RCC_MCO1Source refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change LSCOSource1 refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change SMPSCLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change LPTIM3CLockSelection refparam name for MP1 is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change MPCBB* Default Template Mode to Parameters is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change MPCWM* or MPCBB* Secure Mode to Parameters is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change MPCWM* or MPCBB* No Secure Mode to Parameters is applicable
+2022-05-09 12:36:29,515 [INFO] Rule:211 - rule Change TZSC IP Secure Mode to Parameters is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Change TZSC IP No Secure Mode to Parameters is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Change TZSC IP Privilege Mode to Parameters is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Change TZSC IP No Privilege Mode to Parameters is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Change TZIC IT Secure Mode to Parameters is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Change TZIC IT No Secure Mode to Parameters is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Add MPCBB1_NonSecureArea_Start_Address value with referenced to MPCBB1_NonSecureArea_Start value is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Add MPCBB2_NonSecureArea_Start_Address value with referenced to MPCBB2_NonSecureArea_Start value is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Add MPCWM1_NonSecureArea*_Start_Address value with referenced to MPCWM1_NonSecureArea*_Start value is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Add MPCWM2_NonSecureArea*_Start_Address value with referenced to MPCWM2_NonSecureArea*_Start value is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Add MPCWM3_NonSecureArea_Start_Address value with referenced to MPCWM3_NonSecureArea_Start value is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Change Default Value for PLL1UserDefinedConfig is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Change GPIO_PuPd Default Value for USART in async mode is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule Change SMPSDivider Default Value is applicable
+2022-05-09 12:36:29,516 [INFO] Rule:211 - rule OPAMP is applicable
+2022-05-09 12:36:29,525 [INFO] DbConfProperties:294 - Apply Compatibility (46/174 Rules)
+2022-05-09 12:36:29,537 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) Unable to find key (Mcu.ThirdPartyNb) in loaded IOC file
+2022-05-09 12:36:29,590 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-05-09 12:36:29,590 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-05-09 12:36:29,590 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SFXS2LP1.3.1.0: no header file found
+2022-05-09 12:36:29,591 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356746698]
+2022-05-09 12:36:29,591 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356746711]
+2022-05-09 12:36:29,591 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356746698]
+2022-05-09 12:36:29,591 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356746711]
+2022-05-09 12:36:29,591 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356746698]
+2022-05-09 12:36:29,591 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356746711]
+2022-05-09 12:36:29,591 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356746698]
+2022-05-09 12:36:29,592 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356746711]
+2022-05-09 12:36:29,600 [WARN] ApiManager:274 - Cannot register API 'Board Extension:NFC07A1' from pack STMicroelectronics.X-CUBE-NFC7.1.0.0: no header file found
+2022-05-09 12:36:29,630 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.2.0: no header file found
+2022-05-09 12:36:29,630 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.2.0: no header file found
+2022-05-09 12:36:29,630 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.2.0: no header file found
+2022-05-09 12:36:29,667 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A3' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-05-09 12:36:29,667 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS01A2' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-05-09 12:36:29,667 [WARN] ApiManager:274 - Cannot register API 'Board Extension:IKS02A1' from pack STMicroelectronics.X-CUBE-MEMS1.9.1.0: no header file found
+2022-05-09 12:36:29,669 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-05-09 12:36:29,669 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-05-09 12:36:29,669 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.4.2.0: no header file found
+2022-05-09 12:36:29,670 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,670 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,670 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,670 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,670 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,670 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,670 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,670 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,671 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,671 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,671 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,671 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,671 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,671 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,671 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,671 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,672 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,672 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,672 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,672 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,672 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,672 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,672 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,672 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,673 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,673 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,673 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,673 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,673 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,673 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,673 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,673 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,674 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,674 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,674 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,674 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,674 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,674 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,674 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,675 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,675 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,675 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,675 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,675 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,675 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,675 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,677 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2022-05-09 12:36:29,677 [INFO] RtosManager:456 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2022-05-09 12:36:29,677 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2022-05-09 12:36:29,677 [INFO] RtosManager:456 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2022-05-09 12:36:29,677 [WARN] ModelIntegratedComponent:188 - Missing modes for component 1647356761638
+2022-05-09 12:36:29,678 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,678 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,679 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,680 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,681 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,682 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,683 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,683 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,683 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,683 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,683 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,683 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,684 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,684 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,684 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,684 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,684 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,684 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,685 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,686 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,687 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,688 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,689 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,689 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,689 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,689 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,690 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,691 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,692 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,693 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,694 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,694 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,694 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,695 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,696 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,697 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,698 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,699 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,700 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,701 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,702 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,703 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,704 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,705 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,706 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,707 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,708 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,709 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,710 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,711 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,712 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,713 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,714 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,714 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,714 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,714 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,715 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,715 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,715 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,715 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,715 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,715 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,716 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,717 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,718 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,719 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,720 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,720 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,721 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752274]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,722 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752256]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,723 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752239]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,724 [INFO] DependencyParser:915 - This component is not compatible with the current MCU : [1647356752168]
+2022-05-09 12:36:29,726 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-05-09 12:36:29,726 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2868A2' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-05-09 12:36:29,726 [WARN] ApiManager:274 - Cannot register API 'Board Extension:S2915A1' from pack STMicroelectronics.X-CUBE-SUBG2.5.0.0: no header file found
+2022-05-09 12:36:29,726 [WARN] ApiManager:274 - Cannot register API 'Board Extension:EEPRMA1' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-05-09 12:36:29,727 [WARN] ApiManager:274 - Cannot register API 'Board Extension:EEPRMA2' from pack STMicroelectronics.X-CUBE-EEPRMA1.3.1.1: no header file found
+2022-05-09 12:36:29,727 [WARN] ApiManager:274 - Cannot register API 'Board Extension:GNSS1A1' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-05-09 12:36:29,727 [WARN] ApiManager:274 - Cannot register API 'Board Support:Custom' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-05-09 12:36:29,727 [WARN] ApiManager:274 - Cannot register API 'Data Exchange:lib_gnss' from pack STMicroelectronics.X-CUBE-GNSS1.5.2.0: no header file found
+2022-05-09 12:36:29,728 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-MS' from pack STMicroelectronics.X-CUBE-BLE1.6.2.2: no header file found
+2022-05-09 12:36:29,728 [WARN] ApiManager:274 - Cannot register API 'Wireless:BlueNRG-2' from pack STMicroelectronics.X-CUBE-BLE2.3.2.2: no header file found
+2022-05-09 12:36:29,728 [WARN] ApiManager:274 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.4: no header file found
+2022-05-09 12:36:29,729 [WARN] ApiManager:274 - Cannot register API 'Board Extension:NFC04A1' from pack STMicroelectronics.X-CUBE-NFC4.2.0.3: no header file found
+2022-05-09 12:36:29,891 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,892 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,892 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,892 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,892 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,893 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,893 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,893 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,893 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,894 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,894 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,894 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,894 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,894 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,895 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,895 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,895 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,895 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,895 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,896 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,896 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,896 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,896 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,896 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,896 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,896 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,897 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,897 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,898 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,898 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,898 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,898 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,898 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,898 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,900 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,900 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,900 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,903 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,904 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,904 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,904 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,904 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,904 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,905 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,905 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:29,905 [ERROR] DependencyParser:1297 - StateRcvOpen_Cte Bad Token : )
+2022-05-09 12:36:30,016 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,017 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,017 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,017 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,017 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,018 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,018 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,018 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,018 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,018 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,018 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,018 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,018 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,019 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,019 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,019 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,019 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,019 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,019 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,020 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,020 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,020 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,020 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,020 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,020 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,020 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,020 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,021 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,021 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,021 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,021 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,021 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,022 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,022 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,022 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,022 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,022 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,025 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,029 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,029 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,030 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,030 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,030 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,031 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,031 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,031 [ERROR] DependencyParser:1263 - StateInit_Cte Bad Token :  
+2022-05-09 12:36:30,155 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2022-05-09 12:36:30,159 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (RNGFreq_Value) has invalid value (64000000)
+2022-05-09 12:36:30,159 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (SDMMCFreq_Value) has invalid value (64000000)
+2022-05-09 12:36:30,160 [INFO] ImportTextPane:162 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (64000000)
+2022-05-09 12:36:30,564 [INFO] UtilMem:74 - End LoadConfig() Used Memory: 591592768 Bytes (787480576)
+2022-05-09 12:36:30,568 [WARN] ThirdParty:741 - waiting for thirdparty lock release [change project]
+2022-05-09 12:36:30,568 [INFO] ThirdParty:743 - entering critical section [change project]
+2022-05-09 12:36:30,568 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 3.1.0
+2022-05-09 12:36:30,568 [INFO] ThirdParty:968 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSL 5.2.0
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :RoweBots I-CUBE-UNISONRTOS 5.5.0-4
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.0.0
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.1.0
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 2.0.0
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 1.0.0
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 1.0.0
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2022-05-09 12:36:30,569 [INFO] ThirdParty:968 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.1.2
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.0
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.0.0
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 1.0.0
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.2.0
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 9.1.0
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 4.2.0
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.1
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2022-05-09 12:36:30,570 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 7.1.0
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.19.1
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.3.0
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 1.0.0
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.2.0
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 3.1.1
+2022-05-09 12:36:30,571 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.0.0
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 5.2.0
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE1 6.2.2
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.2.2
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.4
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.0.1
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 2.0.3
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2022-05-09 12:36:30,572 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 2.1.0
+2022-05-09 12:36:30,573 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2022-05-09 12:36:30,573 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.0.0
+2022-05-09 12:36:30,573 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.18.1
+2022-05-09 12:36:30,573 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2022-05-09 12:36:30,573 [INFO] ThirdParty:968 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2022-05-09 12:36:30,573 [INFO] ThirdParty:749 - exiting critical section [change project]
+2022-05-09 12:36:30,907 [INFO] PinOutPanel:1418 - setPackage(No Configuration,No Configuration)
+2022-05-09 12:36:30,909 [INFO] PinOutPanel:1418 - setPackage(STM32L476RGTx,LQFP64)
+2022-05-09 12:36:31,601 [INFO] UtilMem:74 - Before build in PCC Used Memory: 618982568 Bytes (787480576)
+2022-05-09 12:36:31,944 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/adamj/.stm32cubemx/plugins/power
+2022-05-09 12:36:31,991 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/adamj/.stm32cubemx/plugins/power
+2022-05-09 12:36:32,059 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/adamj/.stm32cubemx/plugins/power
+2022-05-09 12:36:32,085 [INFO] SharedServices:71 - Folder for power plug-in: C:/Users/adamj/.stm32cubemx/plugins/power
+2022-05-09 12:36:32,256 [INFO] UtilMem:74 - After build in PCC Used Memory: 548162728 Bytes (787480576)
+2022-05-09 12:36:32,280 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,281 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,281 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,281 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,281 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,281 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,281 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,281 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,282 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,283 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,284 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,285 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,286 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,287 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,288 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,289 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,289 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,289 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,290 [INFO] IPUIPlugin:64 - create IPUIPlugin
+2022-05-09 12:36:32,330 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] toolchainItems.length=====1
+2022-05-09 12:36:32,587 [INFO] OpenFileManager:294 - Restore cursor
+2022-05-09 12:36:32,988 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 591453016 Bytes (787480576)
+2022-05-09 12:36:33,062 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 600890200 Bytes (787480576)
+2022-05-09 12:36:33,472 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2022-05-09 12:36:33,472 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2022-05-09 12:36:33,472 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2022-05-09 12:36:33,472 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USART
+2022-05-09 12:36:33,472 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2022-05-09 12:36:33,481 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2022-05-09 12:36:33,950 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp_save
+2022-05-09 12:36:34,554 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp
+2022-05-09 12:36:34,678 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\gpio.tmp_save
+2022-05-09 12:36:34,805 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\gpio.tmp
+2022-05-09 12:36:35,031 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:36:35,037 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c_save
+2022-05-09 12:36:35,185 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c
+2022-05-09 12:36:35,194 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h_save
+2022-05-09 12:36:35,276 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h
+2022-05-09 12:36:35,283 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c_save
+2022-05-09 12:36:35,377 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c
+2022-05-09 12:36:35,384 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp_save
+2022-05-09 12:36:35,430 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp
+2022-05-09 12:36:35,437 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-05-09 12:36:35,508 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h
+2022-05-09 12:36:35,545 [WARN] IPConfigManager:2884 - IP not found : gpio
+2022-05-09 12:36:35,546 [WARN] CodeGenerator:2866 - IP not found : gpio
+2022-05-09 12:36:35,550 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h_save
+2022-05-09 12:36:35,634 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h
+2022-05-09 12:36:35,639 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c_save
+2022-05-09 12:36:35,727 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c
+2022-05-09 12:36:36,558 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 223mS.
+2022-05-09 12:36:36,565 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2022-05-09 12:36:36,894 [INFO] ConfigFileManager:1183 - The Die is : DIE415
+2022-05-09 12:36:36,903 [INFO] ApiDbMcu:456 - Load IP Config File for FATFS
+2022-05-09 12:36:36,907 [INFO] ApiDbMcu:456 - Load IP Config File for FREERTOS
+2022-05-09 12:36:36,915 [INFO] ApiDbMcu:456 - Load IP Config File for TOUCHSENSING
+2022-05-09 12:36:36,919 [INFO] ApiDbMcu:456 - Load IP Config File for USB_DEVICE
+2022-05-09 12:36:36,923 [INFO] ApiDbMcu:456 - Load IP Config File for USB_HOST
+2022-05-09 12:36:42,905 [ERROR] root:96 - SUCCESS
+2022-05-09 12:36:42,935 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 6370mS.
+2022-05-09 12:36:42,936 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2022-05-09 12:36:42,938 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2022-05-09 12:36:43,362 [INFO] ApiDb:226 - Save user favorites file C:\Users\adamj/.stm32cubeide/favorites.mcus.txt: 0 item(s)
+2022-05-09 12:36:43,362 [INFO] ApiDb:230 - User favorites MCUs=[]
+2022-05-09 12:36:43,364 [INFO] ApiDb:226 - Save user favorites file C:\Users\adamj/.stm32cubeide/favorites.boards.txt: 0 item(s)
+2022-05-09 12:36:43,364 [INFO] ApiDb:230 - User favorites Boards=[]
+2022-05-09 12:39:54,690 [INFO] DbMcusDocs:145 - JSON generation date=Tue Nov 16 17:17:54 CET 2021 (1637079474)
+2022-05-09 12:39:54,791 [INFO] DbMcusDocs:81 - Found 682 MCUs documents
+2022-05-09 12:40:39,907 [INFO] ParamManager:801 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2022-05-09 12:40:44,660 [INFO] ParamManager:801 - [Generic UI] PropertyChangeEvent: TAB_STATUS_CHANGED , "dont care", "never mind"
+2022-05-09 12:40:50,863 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 627306448 Bytes (1044381696)
+2022-05-09 12:40:52,382 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 645132240 Bytes (1044381696)
+2022-05-09 12:40:54,093 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 824438736 Bytes (1044381696)
+2022-05-09 12:40:54,253 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: DAC
+2022-05-09 12:40:54,253 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2022-05-09 12:40:54,253 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2022-05-09 12:40:54,253 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2022-05-09 12:40:54,253 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USART
+2022-05-09 12:40:54,253 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2022-05-09 12:40:54,254 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2022-05-09 12:40:54,528 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp_save
+2022-05-09 12:40:54,592 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp
+2022-05-09 12:40:54,617 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\gpio.c_save
+2022-05-09 12:40:54,694 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\gpio.c
+2022-05-09 12:40:54,702 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\gpio.h_save
+2022-05-09 12:40:54,751 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\gpio.h
+2022-05-09 12:40:54,899 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:40:54,905 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\dac.c_save
+2022-05-09 12:40:54,977 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\dac.c
+2022-05-09 12:40:54,981 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\dac.h_save
+2022-05-09 12:40:55,027 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\dac.h
+2022-05-09 12:40:55,029 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:40:55,035 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\usart.c_save
+2022-05-09 12:40:55,097 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\usart.c
+2022-05-09 12:40:55,102 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\usart.h_save
+2022-05-09 12:40:55,147 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\usart.h
+2022-05-09 12:40:55,159 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c_save
+2022-05-09 12:40:55,229 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c
+2022-05-09 12:40:55,237 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h_save
+2022-05-09 12:40:55,284 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h
+2022-05-09 12:40:55,298 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c_save
+2022-05-09 12:40:55,368 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c
+2022-05-09 12:40:55,375 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp_save
+2022-05-09 12:40:55,414 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp
+2022-05-09 12:40:55,424 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-05-09 12:40:55,481 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h
+2022-05-09 12:40:55,508 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h_save
+2022-05-09 12:40:55,561 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h
+2022-05-09 12:40:55,573 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c_save
+2022-05-09 12:40:55,642 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c
+2022-05-09 12:40:56,313 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 242mS.
+2022-05-09 12:40:56,316 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2022-05-09 12:40:56,488 [INFO] ConfigFileManager:1183 - The Die is : DIE415
+2022-05-09 12:40:57,702 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1386mS.
+2022-05-09 12:40:57,704 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2022-05-09 12:40:57,706 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2022-05-09 12:42:58,460 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 729962400 Bytes (1069547520)
+2022-05-09 12:42:59,828 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 748314520 Bytes (1069547520)
+2022-05-09 12:43:02,189 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 831674272 Bytes (1069547520)
+2022-05-09 12:43:02,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: DAC
+2022-05-09 12:43:02,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM6_7L4
+2022-05-09 12:43:02,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2022-05-09 12:43:02,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2022-05-09 12:43:02,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2022-05-09 12:43:02,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USART
+2022-05-09 12:43:02,369 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2022-05-09 12:43:02,370 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2022-05-09 12:43:02,537 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp_save
+2022-05-09 12:43:02,578 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp
+2022-05-09 12:43:02,603 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\gpio.c_save
+2022-05-09 12:43:02,715 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\gpio.c
+2022-05-09 12:43:02,721 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\gpio.h_save
+2022-05-09 12:43:02,760 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\gpio.h
+2022-05-09 12:43:02,842 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:43:02,855 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\dac.c_save
+2022-05-09 12:43:02,915 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\dac.c
+2022-05-09 12:43:02,920 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\dac.h_save
+2022-05-09 12:43:02,961 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\dac.h
+2022-05-09 12:43:02,963 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:43:02,968 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\tim.c_save
+2022-05-09 12:43:03,027 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\tim.c
+2022-05-09 12:43:03,031 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\tim.h_save
+2022-05-09 12:43:03,123 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\tim.h
+2022-05-09 12:43:03,124 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:43:03,135 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\usart.c_save
+2022-05-09 12:43:03,235 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\usart.c
+2022-05-09 12:43:03,241 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\usart.h_save
+2022-05-09 12:43:03,285 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\usart.h
+2022-05-09 12:43:03,297 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c_save
+2022-05-09 12:43:03,348 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c
+2022-05-09 12:43:03,353 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h_save
+2022-05-09 12:43:03,398 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h
+2022-05-09 12:43:03,413 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c_save
+2022-05-09 12:43:03,474 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c
+2022-05-09 12:43:03,479 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp_save
+2022-05-09 12:43:03,517 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp
+2022-05-09 12:43:03,528 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-05-09 12:43:03,597 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h
+2022-05-09 12:43:03,625 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h_save
+2022-05-09 12:43:03,669 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h
+2022-05-09 12:43:03,680 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c_save
+2022-05-09 12:43:03,749 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c
+2022-05-09 12:43:04,367 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 162mS.
+2022-05-09 12:43:04,370 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2022-05-09 12:43:04,546 [INFO] ConfigFileManager:1183 - The Die is : DIE415
+2022-05-09 12:43:05,659 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1289mS.
+2022-05-09 12:43:05,660 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2022-05-09 12:43:05,663 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2022-05-09 12:43:22,485 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 771427064 Bytes (1073741824)
+2022-05-09 12:43:23,514 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 787125304 Bytes (1073741824)
+2022-05-09 12:43:24,491 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 812290768 Bytes (1073741824)
+2022-05-09 12:43:24,659 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: DAC
+2022-05-09 12:43:24,660 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM6_7L4
+2022-05-09 12:43:24,660 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2022-05-09 12:43:24,660 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2022-05-09 12:43:24,660 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2022-05-09 12:43:24,660 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USART
+2022-05-09 12:43:24,660 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2022-05-09 12:43:24,661 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2022-05-09 12:43:24,876 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp_save
+2022-05-09 12:43:24,917 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp
+2022-05-09 12:43:24,940 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\gpio.c_save
+2022-05-09 12:43:24,995 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\gpio.c
+2022-05-09 12:43:25,003 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\gpio.h_save
+2022-05-09 12:43:25,054 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\gpio.h
+2022-05-09 12:43:25,221 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:43:25,240 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\dac.c_save
+2022-05-09 12:43:25,309 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\dac.c
+2022-05-09 12:43:25,315 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\dac.h_save
+2022-05-09 12:43:25,356 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\dac.h
+2022-05-09 12:43:25,358 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:43:25,368 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\tim.c_save
+2022-05-09 12:43:25,423 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\tim.c
+2022-05-09 12:43:25,429 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\tim.h_save
+2022-05-09 12:43:25,475 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\tim.h
+2022-05-09 12:43:25,477 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:43:25,486 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\usart.c_save
+2022-05-09 12:43:25,541 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\usart.c
+2022-05-09 12:43:25,547 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\usart.h_save
+2022-05-09 12:43:25,587 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\usart.h
+2022-05-09 12:43:25,596 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c_save
+2022-05-09 12:43:25,643 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c
+2022-05-09 12:43:25,648 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h_save
+2022-05-09 12:43:25,688 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h
+2022-05-09 12:43:25,699 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c_save
+2022-05-09 12:43:25,756 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c
+2022-05-09 12:43:25,760 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp_save
+2022-05-09 12:43:25,793 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp
+2022-05-09 12:43:25,803 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-05-09 12:43:25,889 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h
+2022-05-09 12:43:25,915 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h_save
+2022-05-09 12:43:25,993 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h
+2022-05-09 12:43:26,002 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c_save
+2022-05-09 12:43:26,058 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c
+2022-05-09 12:43:26,698 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 171mS.
+2022-05-09 12:43:26,700 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2022-05-09 12:43:26,870 [INFO] ConfigFileManager:1183 - The Die is : DIE415
+2022-05-09 12:43:28,068 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1368mS.
+2022-05-09 12:43:28,070 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 1mS.
+2022-05-09 12:43:28,072 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2022-05-09 12:47:56,585 [INFO] NvicIntPanel:90 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,547x320,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2022-05-09 12:48:03,632 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 809388240 Bytes (1073741824)
+2022-05-09 12:48:04,927 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 826457816 Bytes (1073741824)
+2022-05-09 12:48:06,024 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 614184088 Bytes (1073741824)
+2022-05-09 12:48:06,231 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: DAC
+2022-05-09 12:48:06,232 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: TIM6_7L4
+2022-05-09 12:48:06,232 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: SYS
+2022-05-09 12:48:06,232 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: RCC
+2022-05-09 12:48:06,232 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: NVIC
+2022-05-09 12:48:06,232 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: USART
+2022-05-09 12:48:06,232 [INFO] BlockDiagram:2729 - set Specific Code input for plugin: GPIO
+2022-05-09 12:48:06,233 [INFO] CodeGenerator:622 - code generatio: config db path: C:\ST\STM32CubeIDE_1.4.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.0.0.202007160824\\db\
+2022-05-09 12:48:06,449 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp_save
+2022-05-09 12:48:06,563 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\license.tmp
+2022-05-09 12:48:06,587 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\gpio.c_save
+2022-05-09 12:48:06,645 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\gpio.c
+2022-05-09 12:48:06,654 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\gpio.h_save
+2022-05-09 12:48:06,698 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\gpio.h
+2022-05-09 12:48:06,778 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:48:06,787 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\dac.c_save
+2022-05-09 12:48:06,853 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\dac.c
+2022-05-09 12:48:06,858 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\dac.h_save
+2022-05-09 12:48:06,896 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\dac.h
+2022-05-09 12:48:06,898 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:48:06,960 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\tim.c_save
+2022-05-09 12:48:07,074 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\tim.c
+2022-05-09 12:48:07,081 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\tim.h_save
+2022-05-09 12:48:07,127 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\tim.h
+2022-05-09 12:48:07,129 [INFO] LogOutputStream:76 - [STDOUT_REDIRECT] Command line
+2022-05-09 12:48:07,141 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\usart.c_save
+2022-05-09 12:48:07,207 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\usart.c
+2022-05-09 12:48:07,212 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\usart.h_save
+2022-05-09 12:48:07,257 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\usart.h
+2022-05-09 12:48:07,272 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c_save
+2022-05-09 12:48:07,350 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_it.c
+2022-05-09 12:48:07,356 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h_save
+2022-05-09 12:48:07,405 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_it.h
+2022-05-09 12:48:07,417 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c_save
+2022-05-09 12:48:07,480 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\stm32l4xx_hal_msp.c
+2022-05-09 12:48:07,485 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp_save
+2022-05-09 12:48:07,525 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\MXTmpFiles\system.tmp
+2022-05-09 12:48:07,537 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h_save
+2022-05-09 12:48:07,589 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\stm32l4xx_hal_conf.h
+2022-05-09 12:48:07,615 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h_save
+2022-05-09 12:48:07,657 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Inc\main.h
+2022-05-09 12:48:07,667 [INFO] CodeEngine:188 - oldGeneratedFile, C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c_save
+2022-05-09 12:48:07,731 [INFO] CodeEngine:206 - Generated code: C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\licznik\licz\Core\Src\main.c
+2022-05-09 12:48:08,384 [INFO] ProjectBuilder:2168 - Time for Copy HAL[1] : 171mS.
+2022-05-09 12:48:08,386 [INFO] ProjectBuilder:2988 - Project Generator version: 3.10.0-B14
+2022-05-09 12:48:08,555 [INFO] ConfigFileManager:1183 - The Die is : DIE415
+2022-05-09 12:48:09,661 [INFO] ProjectBuilder:3155 - Time for Generating toolchain IDE Files: 1275mS.
+2022-05-09 12:48:09,662 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.
+2022-05-09 12:48:09,666 [INFO] ProjectBuilder:2044 - Time for Copy CMSIS : 0mS.

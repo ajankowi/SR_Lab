@@ -1,0 +1,121 @@
+13:48:44 **** Incremental Build of configuration Debug for project dma ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dma.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\Dioda_DAM\dma\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dma.elf
+ 
+arm-none-eabi-objdump -h -S  dma.elf  > "dma.list"
+arm-none-eabi-objcopy  -O binary  dma.elf  "dma.bin"
+arm-none-eabi-size   dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21512	    120	   1888	  23520	   5be0	dma.elf
+Finished building: default.size.stdout
+ 
+Finished building: dma.bin
+ 
+Finished building: dma.list
+ 
+13:49:22 **** Incremental Build of configuration Debug for project dma ****
+make -j12 all 
+arm-none-eabi-size   dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21512	    120	   1888	  23520	   5be0	dma.elf
+Finished building: default.size.stdout
+ 
+13:54:15 **** Incremental Build of configuration Debug for project dma ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dma.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\Dioda_DAM\dma\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dma.elf
+ 
+arm-none-eabi-objdump -h -S  dma.elf  > "dma.list"
+arm-none-eabi-objcopy  -O binary  dma.elf  "dma.bin"
+arm-none-eabi-size   dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21492	    136	   1888	  23516	   5bdc	dma.elf
+Finished building: default.size.stdout
+ 
+Finished building: dma.bin
+ 
+Finished building: dma.list
+ 
+13:55:12 **** Incremental Build of configuration Debug for project dma ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "dma.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\Dioda_DAM\dma\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dma.elf
+ 
+arm-none-eabi-objdump -h -S  dma.elf  > "dma.list"
+arm-none-eabi-objcopy  -O binary  dma.elf  "dma.bin"
+arm-none-eabi-size   dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21512	    120	   1888	  23520	   5be0	dma.elf
+Finished building: default.size.stdout
+ 
+Finished building: dma.bin
+ 
+Finished building: dma.list
+ 
+13:56:49 **** Incremental Build of configuration Debug for project dma ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:88:10: warning: unused variable 'dacValue' [-Wunused-variable]
+  uint8_t dacValue[] = {0, 39, 77, 116, 154, 193, 231, 255};
+          ^~~~~~~~
+arm-none-eabi-gcc -o "dma.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\Dioda_DAM\dma\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dma.elf
+ 
+arm-none-eabi-objdump -h -S  dma.elf  > "dma.list"
+arm-none-eabi-objcopy  -O binary  dma.elf  "dma.bin"
+arm-none-eabi-size   dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21544	    120	   1888	  23552	   5c00	dma.elf
+Finished building: default.size.stdout
+ 
+Finished building: dma.bin
+ 
+Finished building: dma.list
+ 
+13:57:46 **** Incremental Build of configuration Debug for project dma ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:88:10: warning: unused variable 'dacValue' [-Wunused-variable]
+  uint8_t dacValue[] = {0,39,77,116,154,193,231,255};
+          ^~~~~~~~
+arm-none-eabi-gcc -o "dma.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\Dioda_DAM\dma\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dma.elf
+ 
+arm-none-eabi-objdump -h -S  dma.elf  > "dma.list"
+arm-none-eabi-objcopy  -O binary  dma.elf  "dma.bin"
+arm-none-eabi-size   dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21544	    120	   1888	  23552	   5c00	dma.elf
+Finished building: default.size.stdout
+ 
+Finished building: dma.bin
+ 
+Finished building: dma.list
+ 
+13:58:39 **** Incremental Build of configuration Debug for project dma ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:88:10: warning: unused variable 'dacValue' [-Wunused-variable]
+  uint8_t dacValue[] = {0,39,77,116,154,193,231,255};
+          ^~~~~~~~
+arm-none-eabi-gcc -o "dma.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4\Dioda_DAM\dma\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="dma.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: dma.elf
+ 
+arm-none-eabi-objdump -h -S  dma.elf  > "dma.list"
+arm-none-eabi-objcopy  -O binary  dma.elf  "dma.bin"
+arm-none-eabi-size   dma.elf 
+   text	   data	    bss	    dec	    hex	filename
+  21540	    120	   1888	  23548	   5bfc	dma.elf
+Finished building: default.size.stdout
+ 
+Finished building: dma.bin
+ 
+Finished building: dma.list
+ 
