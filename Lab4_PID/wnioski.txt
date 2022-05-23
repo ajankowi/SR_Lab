@@ -1,0 +1,42 @@
+5.1
+	ADC
+- Ustaw ADC_IN15 na PB0
+- ADC1, IN15 ustaw Single-ended
+- Dodaj przerwania interrupts
+- External Trigger Vonversion Source - Timer 6 Trigger out event
+- External Trigger Vonversion Edge - Trigger detection on the rising edge
+- Rozszerz Rank i zmień cycles 2.5 na 47.5
+
+
+	DAC
+- Ustaw DAC1_OUT1 na PA4
+- Ustaw DAC1_OUT1 mode na Connected to external pin only.
+
+	TIM6
+- Aktywuj
+- (Przerwanie?)
+- Dodaj stale (czestotliwosc co 1ms)
+	TIM_PID_LOOP_PRESCALER = 499
+	TIM_PID_LOOP_PERIOD = 159
+- Trigger Event Selection - Update Event 
+
+	TIM7
+- Aktywuj
+- (Przerwanie?)
+- Dodaj stale (Czestotliwosc 1Khz) - To samo co wyzej xD
+	TIM_DAC_PRESCALER = 499
+	TIM_DAC_PERIOD = 159	
+
+
+-Skopiuj pliki:
+	pid.h
+	pid.c
+	main.c
+
+	STMStudio
+- Import Val -> ... -> Debug -> *.elf
+
+mv - szary
+dv - fioletowy
+dac_control - czerwony
+e - niebieski

@@ -1,0 +1,34 @@
+/*
+* pid.c
+*
+* Created on: 09.03.2018
+* Author: Wojciech Domski
+*/
+#include "pid.h"
+
+void pid_init(cpid_t * pid, float p, float i, float d, uint8_t f, int32_t dt_ms) {
+	uint32_t k;
+	pid->power = 1;
+	for (k = 0; k < f; ++k) {
+		pid->power = pid->power * 2;
+	}
+	pid->f = f;
+	pid->p = (int32_t) (p * pid->power);
+	pid->i = (int32_t) (i * pid->power);
+	pid->d = (int32_t) (d * pid->power);
+	pid->p_val = 0;
+	pid->i_val = 0;
+	pid->d_val = 0;
+	pid->p_max = INT32_MAX;
+	pid->p_min = INT32_MIN;
+	pid->i_max = INT32_MAX;
+	pid->i_min = INT32_MIN;
+	pid->d_max = INT32_MAX;
+	pid->d_min = INT32_MIN;
+	pid->e_last = 0;
+	pid->sum = 0;
+	pid->total_max = INT32_MAX;
+	pid->total_min = INT32_MIN;
+	pid->dt_ms = dt_ms;
+}
+

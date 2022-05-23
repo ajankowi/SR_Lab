@@ -1,0 +1,21 @@
+!SESSION 2022-05-23 15:16:57.271 -----------------------------------------------
+eclipse.buildId=Version 1.4.0
+java.version=1.8.0_252
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-23 15:17:18.072
+!MESSAGE Log4j initialized with config file C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-23 15:17:24.416
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 4 4 2022-05-23 15:17:25.005
+!MESSAGE com.st.stm32cube.ide.mcu.ide/META-INF/version/build_ref file not found, build reference will not be reported into properties
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-23 15:19:17.387
+!MESSAGE Indexed 'PID_2' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-23 15:19:21.566
+!MESSAGE Indexed 'PID_2' (24 sources, 23 headers) in 0.845 sec: 2,482 declarations; 16,074 references; 1 unresolved inclusions; 105 syntax errors; 5,591 unresolved names (23%)

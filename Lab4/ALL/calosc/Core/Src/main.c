@@ -52,7 +52,8 @@ int _write(int file, char *ptr, int len);
 volatile uint16_t adc_value;
 volatile uint16_t dac_value;
 volatile uint8_t adc_flag;
-char dac[] = {128, 176, 217, 245, 255, 245, 217, 176, 128, 79, 38, 10, 1, 10, 38, 79};
+//char dac[] = {128, 176, 217, 245, 255, 245, 217, 176, 128, 79, 38, 10, 1, 10, 38, 79};
+char dac[] = {0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 255, 255, 255, 255, 255, 255, 255, 255};
 
 /* USER CODE END PV */
 
