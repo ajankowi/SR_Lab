@@ -73,3 +73,487 @@ Finished building: PID_2.bin
  
 Finished building: PID_2.list
  
+16:09:47 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23364	     20	   2084	  25468	   637c	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:16:22 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:17:11 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:17:52 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23436	    220	   2084	  25740	   648c	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:18:34 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:19:48 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:20:30 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:20:32 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+16:21:12 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:21:45 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23444	    220	   2084	  25748	   6494	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:22:16 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:22:43 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:23:14 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:23:41 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:24:16 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:24:40 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:25:06 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:25:30 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:25:59 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:26:35 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:27:21 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:28:19 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23440	    220	   2084	  25744	   6490	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:29:17 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23432	    220	   2084	  25736	   6488	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:30:36 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23432	    220	   2084	  25736	   6488	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:31:12 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23432	    220	   2084	  25736	   6488	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:31:47 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23436	    220	   2084	  25740	   648c	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:32:49 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:149:18: error: invalid suffix "f" on integer constant
+   pid_init(&pid, 1f, 0.0f, 0.0f, 10, 1);
+                  ^~
+make: *** [Core/Src/subdir.mk:57: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:32:57 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function 'main':
+../Core/Src/main.c:149:18: error: invalid suffix "f" on integer constant
+   pid_init(&pid, 1f, 0.0f, 0.0f, 10, 1);
+                  ^~
+make: *** [Core/Src/subdir.mk:57: Core/Src/main.o] Error 1
+"make -j12 all" terminated with exit code 2. Build might be incomplete.
+16:33:04 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23432	    220	   2084	  25736	   6488	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 
+16:34:20 **** Incremental Build of configuration Debug for project PID_2 ****
+make -j12 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DUSE_HAL_DRIVER -DSTM32L476xx -DDEBUG -c -I../Core/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc -I../Drivers/STM32L4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32L4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "PID_2.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\adamj\Desktop\Studia\Semestr_6\SR\Labki\Lab4_PID\5_2\PID_2\STM32L476RGTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="PID_2.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: PID_2.elf
+ 
+arm-none-eabi-objdump -h -S  PID_2.elf  > "PID_2.list"
+arm-none-eabi-objcopy  -O binary  PID_2.elf  "PID_2.bin"
+arm-none-eabi-size   PID_2.elf 
+   text	   data	    bss	    dec	    hex	filename
+  23436	    220	   2084	  25740	   648c	PID_2.elf
+Finished building: default.size.stdout
+ 
+Finished building: PID_2.bin
+ 
+Finished building: PID_2.list
+ 

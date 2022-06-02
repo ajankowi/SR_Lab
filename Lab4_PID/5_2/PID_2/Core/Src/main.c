@@ -143,8 +143,12 @@ int main(void)
   //DAC DESIRED VALUE
   HAL_TIM_Base_Start_IT(&htim7);
   HAL_ADC_Start_IT(&hadc1);
+
+
   //DOBIERZ ODPOWIEDNIE WSPOLCZYNNIKI REGULATORA PID
-  pid_init(&pid, 1.0f, 0.0f, 0.0f, 10, 1);
+  pid_init(&pid, 1.2f, 4.0f, 2.0f, 10, 1);
+//  pid_init(&pid, 200.0f, 40.0f, 8.0f, 10, 1);
+
   pid.p_max = pid_scale(&pid, 4095);
   pid.p_min = pid_scale(&pid, -4095);
   pid.i_max = pid_scale(&pid, 4095);
@@ -160,8 +164,8 @@ int main(void)
   HAL_DAC_SetValue(&hdac1, DAC_CHANNEL_1, DAC_ALIGN_12B_R, 4095);
   dac_value = 4095;
   HAL_Delay(100000);
-
 */
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
